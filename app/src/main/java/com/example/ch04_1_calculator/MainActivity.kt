@@ -24,7 +24,8 @@ class MainActivity : AppCompatActivity()
     {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main)
-        setContentView(R.layout.activity_main_table)
+//        setContentView(R.layout.activity_main_table)
+        setContentView(R.layout.activity_main_grid)
 
         //1.java 객체 만들기, 2.바인딩까지
         var edt1 : EditText = findViewById<EditText>(R.id.Edit1)
